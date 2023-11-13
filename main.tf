@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "demo" {
   instance_type = "t2.micro"
-  ami = "ami-05c13eab67c5d8861"
+  ami = "ami-0fc5d935ebf8bc3bc"
   tenancy = "default"
   tags = {
     Name = "jenkinsserver"
